@@ -2,10 +2,11 @@
 
 For the sake of brevity, I included some things that would need to be modified in a production-ready app.
 
-- There are no front-end tests
+- There are no front-end tests.
+- I did not do responsive UI due to lack of time. Everything was designed for large screen width.
 - Typescript gets compiled on the fly in React, hence all types are included under `dependencies`
-- IDs-to-names are hardcoded in React, as suggested in the description
-- Both apps were marked as separate repositories for the ease of deployment
+- IDs-to-names are hardcoded in React, as suggested in the description.
+- Both apps were marked as separate repositories for the ease of deployment.
 
 Also note that the Star Wars API is unstable and may fail at random.
 
